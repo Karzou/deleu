@@ -3,7 +3,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
-		<title>Deleu Work</title>
+		<link rel="stylesheet" href="style1.css" />
+		<title>Deleu Work Jardinage paysagiste élagage Hainaut</title>
+		<meta name="description" content="Deleu Work c'est : une équipe passionnée par la nature, la réalisation, conception et l’entretien des parcs et jardins, nous vous proposons nos services pour que vos abords deviennent un coin de paradis. Propres et méticuleux, nous mettrons tout en œuvre pour vous satisfaire. N’hésitez pas à demander un devis gratuit. DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : DELEUCHRISTOPHE@GMAIL.COM" />
+					<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SKFSPWB3SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SKFSPWB3SJ');
+</script>
 	</head>
 	
 	<body>
@@ -11,10 +22,10 @@
 			<header>
 				<div id="titre_principal">
 					<div id="logo">
-						<img src="images/logo.png" alt="hainaut" />
+						<img src="images/logoChris.PNG" alt="" >
 						<h1>Christophe Deleu</h1>
 					</div>
-					<h2>Entrepreneur jardinnage, élagage</h2>
+					<h2>Entrepreneur jardinage, élagage</h2>
 				</div>
 				
 				<nav>
@@ -22,9 +33,11 @@
 						<li><a href="index.php">Accueil</a></li>
 						<li><a href="réalisations.php">Réalisations</a></li>
 						<li><a href="devis.php">Devis</a></li>
-						<li><a href="mailto:christophe@deleu.work">Contact</a></li>
+						<li><a href="mailto:deleuchristophe@gmail.com">Contact</a></li>
 					</ul>
 				</nav>
+				
+				
 				</header>
 			
 			<div id="banniere_image">
@@ -35,18 +48,18 @@
 			
 			<section>
 				<article>
-					<h1 id="realisation"><img src="images/logo.png"width="50" height="50" alt="logo" class="ico_categorie" />Nos plus belles réalisations</h1>
-					    <a href="réalisations.html#rognage">
+					<h1 id="realisation"><img src="images/logoChris.PNG"width="50" height="50" alt="" class="ico_categorie" >Nos plus belles réalisations</h1>
+					    <a href="réalisations.php#rognage">
 						<img class="photoArticle" id="left"src="images/photoAccueil1.jpg"alt="rognage" TITLE="Rognage, déssouchage"></a>
-						<a href="réalisations.html#abattage">
+						<a href="réalisations.php#abattage">
 						<img class="photoArticle"src="images/photoAccueil2.jpg"alt="abattage, élagage" TITLE="Abattage, élagage"></a>
-						<a href="réalisations.html#dechet">
+						<a href="réalisations.php#dechet">
 						<img class="photoArticle" id="right"src="images/photoAccueil3.jpg"alt="déchet" TITLE="Enlèvement des déchets"></a>
-						<a href="réalisations.html#panneau">
+						<a href="réalisations.php#panneau">
 						<img class="photoArticle" id="left"src="images/photoAccueil4.jpg"alt="panneau" TITLE="Panneaux et grillages"></a>
-						<a href="réalisations.html#tonte">
+						<a href="réalisations.php#tonte">
 						<img class="photoArticle"src="images/photoAccueil5.jpg"alt="tonte" TITLE="Tonte et taille de haie"></a>
-						<a href="réalisations.html#abris">
+						<a href="réalisations.php#abris">
 						<img class="photoArticle" src="images/photoAccueil6.jpg"alt="abris de jardin" TITLE="Abris de jardin"></a>
 				<p id="detail">Cliquez sur les photos pour plus de détails.
 				</p>	
@@ -68,7 +81,7 @@
 			<footer>
 				
 				
-				<p>DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : CHRISTOPHE@DELEU.WORK  DEVIS GRATUIT!!!!  </p>	
+				<p>DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : DELEUCHRISTOPHE@GMAIL.COM  DEVIS GRATUIT!!!!  </p>	
 				
 				
             </footer>

@@ -3,7 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
-		<title>Deleu Work</title>
+		<title>Deleu Work Jardinage paysagiste elagage Hainaut</title>
+		<meta name="description" content="Deleu Work c'est : une équipe passionnée par la nature, la réalisation, conception et l’entretien des parcs et jardins, nous vous proposons nos services pour que vos abords deviennent un coin de paradis. Propres et méticuleux, nous mettrons tout en œuvre pour vous satisfaire. N’hésitez pas à demander un devis gratuit. DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : DELEUCHRISTOPHE@GMAIL.COM" />
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SKFSPWB3SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SKFSPWB3SJ');
+</script>
 	</head>
 	
 	<body>
@@ -11,10 +21,10 @@
 			<header>
 				<div id="titre_principal">
 					<div id="logo">
-						<img src="images/logo.png" alt="Logo" />
+						<img src="images/logoChris.PNG" alt="Logo" />
 						<h1>Christophe Deleu</h1>
 					</div>
-					<h2>Entrepreneur jardinnage, élagage</h2>
+					<h2>Entrepreneur jardinage, élagage</h2>
 				</div>
 				
 				<nav>
@@ -22,9 +32,10 @@
 						<li><a href="index.php">Accueil</a></li>
 						<li><a href="réalisations.php">Réalisations</a></li>
 						<li><a href="devis.php">Devis</a></li>
-						<li><a href="mailto:christophe@deleu.work">Contact</a></li>
+						<li><a href="mailto:deleuchristophe@gmail.com">Contact</a></li>
 					</ul>
 				</nav>
+		
 			</header>
 			
 			<div id="banniere_image">
@@ -129,7 +140,7 @@
 			
 			<footer>
 				
-				<p>DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : CHRISTOPHE@DELEU.WORK   DEVIS GRATUIT!!!!  </p>	
+				<p>DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : DELEUCHRISTOPHE@GMAIL.COM   DEVIS GRATUIT!!!!  </p>	
 				
 			</footer>
         </div>

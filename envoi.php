@@ -3,7 +3,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
-		<title>Deleu Work</title>
+		<title>Deleu Work Jardinnage paysagiste elagage Hainaut</title>
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SKFSPWB3SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SKFSPWB3SJ');
+</script>
 	</head>
 	
 	<body>
@@ -11,10 +20,10 @@
 			<header>
 				<div id="titre_principal">
 					<div id="logo">
-						<img src="images/logo.png" alt="Logo" />
+						<img src="images/logoChris.PNG" alt="Logo" />
 						<h1>Christophe Deleu</h1>
 					</div>
-					<h2>Entrepreneur jardinnage, élagage</h2>
+					<h2>Entrepreneur jardinage, élagage</h2>
 				</div>
 				
 				<nav>
@@ -22,9 +31,10 @@
 						<li><a href="index.php">Accueil</a></li>
 						<li><a href="réalisations.php">Réalisations</a></li>
 						<li><a href="devis.php">Devis</a></li>
-						<li><a href="mailto:christophe@deleu.work">Contact</a></li>
+						<li><a href="mailto:deleuchristophe@gmail.com">Contact</a></li>
 					</ul>
 				</nav>
+		
 			</header>
 			
 			<div id="banniere_image">
@@ -49,14 +59,17 @@ $email_msg .="Email: ".$email."\n";
 $email_msg .="Message: ".$message."\n"; 
  
 
-  $dest = "christophe@deleu.work";
+  $dest = "deleuchristophe@gmail.com";
   $sujet = "Demande de devis";
   
-  $headers = "From: kvanconingsloo@gmail";
-  if (mail($dest, $sujet, $email_msg, $headers)) {
+  $headers = 'From: deleu.work@hotmail.com' . "\r\n" .
+    'Reply-To: ' .$email. "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+  if (mb_send_mail($dest, $sujet, $email_msg, $headers)) {
     echo "<h1>Merci pour votre demande. Nous vous contacterons dans les plus bref délais.</h1>";
   } else {
-    echo "<h1>Échec de l'envoi de l'email...</h1>";
+    echo "<h1>OUPS...Échec de l'envoi de l'email...Veuillez nous envoyer un mail pour votre demande.</h1>";
   }
 ?>
  </div>
@@ -64,7 +77,7 @@ $email_msg .="Message: ".$message."\n";
 			
 			<footer>
 				
-				<p>DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : CHRISTOPHE@DELEU.WORK   DEVIS GRATUIT!!!!  </p>	
+				<p>DELEU CHRISTOPHE. TELEPHONE : 0474/075740. EMAIL : DELEUCHRISTOPHE@GMAIL.COM   DEVIS GRATUIT!!!!  </p>	
 				
 			</footer>
         </div>
